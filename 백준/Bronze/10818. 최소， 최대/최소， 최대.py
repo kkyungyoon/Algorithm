@@ -1,0 +1,5 @@
+N = int(input())
+num_set = set(map(int, input().split()))
+max_num = max(num_set)
+min_num = min(num_set)
+print(min_num, max_num, sep=' ')
