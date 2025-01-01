@@ -7,6 +7,7 @@ ord('z') = 122
 """
 S = input()
 df = dict()
+# df = [-1]*(ord('z')-ord('a')+1)
 for n in range(97,123):
     df[chr(n)] = -1
 
